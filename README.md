@@ -16,6 +16,17 @@
 #### Hybrid Cascade (CNN-LSTM) Autoencoder #................................
 #### Hybrid Parallel Two path spatial-spectral feature extraction Autoencoder #........................
 
+```
+Hybrid-Spatial-Spectral-Autoencoder-Models-for-Lossy-Satellite-Image-Compression/models/
+├── Hybrid Casade (CNN-LSTM) AE                               # Script to evaluate model accuracy.
+├── Hybrid Parallel (CNN-Attention) AE                        # Helper functions.
+├── Hybrid Parallel (One directional CNN-LSTM) AE             # Used to train the Teacher.
+├── Hybrid Parallel (Two directional CNN-LSTM) AE             # Contains the architectures of the Projector and the regressor.
+└── README.md                           # Project documentation.
+```
+#### 1- evaluate_model.py
+
+Calculates the accuracy of a specified model on the CIFAR-10 or CIFAR-100 datasets.
 
 ## 3 - Usage
 To implement and verify these models, you need to specify the dataset, the model name, and the path to the model's weights.
