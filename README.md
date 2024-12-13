@@ -19,9 +19,14 @@ Hybrid-Spatial-Spectral-Autoencoder-Models-for-Lossy-Satellite-Image-Compression
 ├── Hybrid Parallel (One directional CNN-LSTM) AE             # Used to train the Teacher.
 └── Hybrid Parallel (Two directional CNN-LSTM) AE             # Contains the architectures of the Projector and the regressor.
 ```
-#### 1- evaluate_model.py
+#### 1- Hybrid Casade (CNN-LSTM) AE
 
-Calculates the accuracy of a specified model on the CIFAR-10 or CIFAR-100 datasets.
+#### 2- Hybrid Parallel (CNN-Attention) AE
+
+#### 3- Hybrid Parallel (One directional CNN-LSTM) AE
+
+#### 4- Hybrid Parallel (Two directional CNN-LSTM) AE
+
 
 ## 3 - Usage
 To implement and verify these models, you need to specify the dataset, the model name, and the path to the model's weights.
