@@ -14,19 +14,27 @@
 ## 2 - Repository Files Description
 ```
 Hybrid-Spatial-Spectral-Autoencoder-Models-for-Lossy-Satellite-Image-Compression/models/
-├── Hybrid Casade (CNN-LSTM) AE                               # Script to evaluate model accuracy.
-├── Hybrid Parallel (CNN-Attention) AE                        # Helper functions.
-├── Hybrid Parallel (One directional CNN-LSTM) AE             # Used to train the Teacher.
-└── Hybrid Parallel (Two directional CNN-LSTM) AE             # Contains the architectures of the Projector and the regressor.
+├── Hybrid Casade (CNN-LSTM) AE                              
+├── Hybrid Parallel (One directional CNN-LSTM) AE                        
+├── Hybrid Parallel (Two directional CNN-LSTM) AE            
+└── Hybrid Parallel (CNN-Attention) AE             
 ```
 #### 1- Hybrid Casade (CNN-LSTM) AE
 The propsoed model architecture is presented for both RGB and Multispectral EuroSat dataset. It utilizes both CNNs and LSTMs within a cascading architecture to efficiently process image data by leveraging spatial and spectral feature extraction methods. The proposed hybrid (CNN-LSTM) model combines the Spatial feature extraction capability of CNNs with the shared output feature and sequential context representation of LSTMs (Temporal feature extraction) to extract SPATIAL features to create an effective latent compact representationThe convolution layer is responsible for extracting spatial features from the input image, The proposed CNN output is refined forward via a flatten layer, which converts all of the resulting multidimensional arrays into a single long continuous linear vector from pooled feature maps, the input of three layers of stacked LSTM cells, respectively. An LSTM cell comprises three gates- input, output, and forget. The sequential latent representation represents the compressed data
 
-#### 2- Hybrid Parallel (CNN-Attention) AE
+#### 2- Hybrid Parallel (One directional CNN-LSTM) AE
+The proposed model has two main components: a forward network(encoder) and a Backward network (decoder).
+We focused especially on separating spectral-spatial feature extraction blocks, which form the core of the SSFE network.  
+The spectral and spatial features are combined into a spatial-spectral feature representation.
+The outputs of these blocks are then (Feature Fusion) concatenated and fed into a Downsampling Stage.  
+The propsoed model architecture is presented for both RGB and Multispectral EuroSat dataset. The proposed hybrid SSFE model merges one directional CNN as a spatial block and LSTM as a spectral block in parallel paths, in which the CNN path focuses on spatial feature extraction, whereas the LSTM path is dedicated to spectral feature extraction.
 
-#### 3- Hybrid Parallel (One directional CNN-LSTM) AE
+#### 3- Hybrid Parallel (Two directional CNN-LSTM) AE
+The propsoed model architecture is presented for both RGB and Multispectral EuroSat dataset. CNNs are adept at extracting spatial features from RGB images where spectral details are less critical. In contrast, for multispectral image compression, a standard CNN may ignore vital spectral information that is essential to these types of data.  
+To address the mentioned issue, we propose a two-directional CNN approach ( this method allows the convolutional kernel to independently extract spatial features along the two parallel pathways, in which spatial features are extracted from two different directions, and makes full use of the correlations between rows and between columns of each pixel.)  With the characteristics of the sliding window mechanism of the CNN, it’s possible to capture integrated spatial features by simply altering the movement direction of the kernel, given the relative nature of the image tensor arrangement and the movement of the convolution kernel, transposing the image tensor is adopted as an alternative approach
 
-#### 4- Hybrid Parallel (Two directional CNN-LSTM) AE
+#### 4- Hybrid Parallel (CNN-Attention) AE 
+The propsoed model architecture is presented for both RGB and Multispectral EuroSat dataset. The proposed hybrid AE model combines CNNs as a spatial block, using the same architecture as the Hybrid Parallel (CNN-LSTM) SSFE Blocks, with CNNs and Attention as a spectral block. The CNN path focuses on spatial decorrelation and feature extraction, whereas CNNs with Attention path are dedicated to spectral decorrelation and feature extraction processes.
 
 
 ## 3 - Usage
