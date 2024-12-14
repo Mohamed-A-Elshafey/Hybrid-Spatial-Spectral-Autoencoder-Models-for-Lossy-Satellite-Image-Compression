@@ -35,10 +35,10 @@ The propsoed model architecture is presented for both RGB and Multispectral Euro
 ## 3 - Usage
 To implement and verify these models, you need to specify the dataset, the model name, and the path to the model's weights.
 You can download the RGB Dataset from this link: 
-https:..........................................
-You can download the Multispectral Dataset from this link:
-https:........................................................
+https://www.kaggle.com/datasets/apollo2506/eurosat-dataset?select=EuroSATallBands
 
+You can download the Multispectral Dataset from this link:
+https://www.kaggle.com/datasets/waseemalastal/eurosat-rgb-dataset
 
 ## 4 - Reference
 **Under review**
