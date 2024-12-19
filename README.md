@@ -5,7 +5,7 @@
 1. [Introduction](#introduction)
 2. [Repository Files Description](#repository-files-description)
 3. [Usage](#usage)
-4. [Contact](#contact)
+4. [Contact](#Contact)
 5. [Reference](#Reference)
    
 ## 1 - Introduction
