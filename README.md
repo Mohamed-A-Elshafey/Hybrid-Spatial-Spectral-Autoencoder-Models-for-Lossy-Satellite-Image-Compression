@@ -42,6 +42,18 @@ https://www.kaggle.com/datasets/apollo2506/eurosat-dataset?select=EuroSATallBand
 https://www.kaggle.com/datasets/waseemalastal/eurosat-rgb-dataset
 
 ## 4 - Reference
-**Under review**
-```
 
+```
+@article{doi:10.2514/1.I011445,
+author = {Badr, Mohamed Ahmed and Elrewainy, Ahmed Fathy and Elshafey, Mohamed Abdelmoneim Taha},
+title = {Hybrid Spatial–Spectral Autoencoder Models for Lossy Satellite Image Compression},
+journal = {Journal of Aerospace Information Systems},
+volume = {0},
+number = {0},
+pages = {1-22},
+year = {0},
+doi = {10.2514/1.I011445},
+URL = {https://doi.org/10.2514/1.I011445}
+}
+```
+https://arc.aiaa.org/doi/10.2514/1.I011445
