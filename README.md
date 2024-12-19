@@ -5,7 +5,8 @@
 1. [Introduction](#introduction)
 2. [Repository Files Description](#repository-files-description)
 3. [Usage](#usage)
-4. [Reference](#Reference)
+4. [Contact](#contact)
+5. [Reference](#Reference)
    
 ## 1 - Introduction
 
@@ -41,7 +42,9 @@ https://www.kaggle.com/datasets/apollo2506/eurosat-dataset?select=EuroSATallBand
 ### You can download the Multispectral Dataset from this link:
 https://www.kaggle.com/datasets/waseemalastal/eurosat-rgb-dataset
 
-## 4 - Reference
+## 4 - Contact
+
+## 5 - Reference
 
 ```
 @article{doi:10.2514/1.I011445,
