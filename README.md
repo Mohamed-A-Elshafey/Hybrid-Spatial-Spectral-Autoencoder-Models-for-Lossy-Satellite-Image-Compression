@@ -44,11 +44,11 @@ https://www.kaggle.com/datasets/waseemalastal/eurosat-rgb-dataset
 
 ## 4 - Contact
 
-## Mohamed Ahmed Badr, Researcher at Avionics Engineering Department, Military Technical College, Cairo, Egypt, m.badr1086@gmail.com
+# Mohamed Ahmed Badr, Researcher at Avionics Engineering Department, Military Technical College, Cairo, Egypt, m.badr1086@gmail.com
 
-## AhmedFathyElrewainy, Assistant Professor, Avionics Engineering Department, Military Technical College, Cairo, Egypt, ahmed.elrewainy@mtc.edu.eg
+# AhmedFathyElrewainy, Assistant Professor, Avionics Engineering Department, Military Technical College, Cairo, Egypt, ahmed.elrewainy@mtc.edu.eg
 
-## Mohamed Abdelmoneim Taha Elshafey, Associate Professor, Head of Computer Engineering and Artificial Intelligence Department, Military Technical College, Cairo, Egypt, m.shafey@mtc.edu.eg ; mohamed.elshafey@ieee.org
+# Mohamed Abdelmoneim Taha Elshafey, Associate Professor, Head of Computer Engineering and Artificial Intelligence Department, Military Technical College, Cairo, Egypt, m.shafey@mtc.edu.eg ; mohamed.elshafey@ieee.org
 
 ## 5 - Reference
 
