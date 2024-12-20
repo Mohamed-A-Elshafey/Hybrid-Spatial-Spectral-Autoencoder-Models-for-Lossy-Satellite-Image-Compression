@@ -65,4 +65,10 @@ doi = {10.2514/1.I011445},
 URL = {https://doi.org/10.2514/1.I011445}
 }
 ```
+
+```
+Badr, Mohamed Ahmed, Ahmed Fathy Elrewainy, and Mohamed Abdelmoneim Taha Elshafey. "Hybrid Spatial–Spectral Autoencoder Models for Lossy Satellite Image Compression." Journal of Aerospace Information Systems (2024): 1-22.
+```
+
+
 https://arc.aiaa.org/doi/10.2514/1.I011445
