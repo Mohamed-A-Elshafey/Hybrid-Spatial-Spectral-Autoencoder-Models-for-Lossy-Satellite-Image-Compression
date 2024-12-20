@@ -54,7 +54,7 @@ https://www.kaggle.com/datasets/waseemalastal/eurosat-rgb-dataset
 
 ```
 @article{doi:10.2514/1.I011445,
-author = {Badr, Mohamed Ahmed and Elrewainy, Ahmed Fathy and Elshafey, Mohamed Abdelmoneim Taha},
+author = {Badr, Mohamed Ahmed and Elrewainy, Ahmed Fathy and Elshafey, Mohamed Abdelmoneim Taha Elshafey},
 title = {Hybrid Spatial–Spectral Autoencoder Models for Lossy Satellite Image Compression},
 journal = {Journal of Aerospace Information Systems},
 volume = {0},
@@ -67,7 +67,7 @@ URL = {https://doi.org/10.2514/1.I011445}
 ```
 
 ```
-Badr, Mohamed Ahmed, Ahmed Fathy Elrewainy, and Mohamed Abdelmoneim Taha Elshafey. "Hybrid Spatial–Spectral Autoencoder Models for Lossy Satellite Image Compression." Journal of Aerospace Information Systems (2024): 1-22.
+Badr, MA, Elrewainy, AF, and Elshafey, MAT. "Hybrid Spatial–Spectral Autoencoder Models for Lossy Satellite Image Compression." Journal of Aerospace Information Systems (2024): 1-22.
 ```
 
 
